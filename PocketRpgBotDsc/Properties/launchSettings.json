@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "PocketRpgBotDsc": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "Token": "Nzk4MTY1NTIzODMyNzY2NDc1.X_xDkg.0g8uTW16q71BsAeEqJJzimcCap8"
+      }
+    }
+  }
+}
