@@ -20,3 +20,5 @@ D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\n
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\netcoreapp3.1\PocketRpgBotDsc.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\netcoreapp3.1\PocketRpgBotDsc.pdb
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\netcoreapp3.1\PocketRpgBotDsc.genruntimeconfig.cache
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll

@@ -19,22 +19,34 @@ namespace PocketRpgBotDsc
 		}
 
 		private DiscordSocketClient _client;
-		private CommandHandler handler;
 
 		public async Task MainAsync()
 		{
-			_client = new DiscordSocketClient();
+            var _config = new DiscordSocketConfig { MessageCacheSize = 100 };
+
+			_client = new DiscordSocketClient(_config);
 			_client.Log += Log;
 
 			var token = Environment.GetEnvironmentVariable("Token");
 
-			/*handler = new CommandHandler(_client,)*/
-
 			await _client.LoginAsync(TokenType.Bot, token);
 			await _client.StartAsync();
 
+			_client.MessageUpdated += MessageUpdated;
+            _client.Ready += () =>
+			{
+				Console.WriteLine("Bot is connected");
+				return Task.CompletedTask;
+			};
+
 			await Task.Delay(-1);
 		}
+
+		private async Task MessageUpdated(Cacheable<IMessage, ulong> befor, SocketMessage after, ISocketMessageChannel channel)
+        {
+			var message = await befor.GetOrDownloadAsync();
+			Console.WriteLine($"{message} -> {after}");
+        }
 
 	}
 }
