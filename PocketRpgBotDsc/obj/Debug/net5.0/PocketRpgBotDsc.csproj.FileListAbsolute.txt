@@ -5,16 +5,9 @@ D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\n
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\PocketRpgBotDsc.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\ref\PocketRpgBotDsc.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\PocketRpgBotDsc.pdb
-D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Discord.Net.Commands.dll
-D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Discord.Net.Core.dll
-D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Discord.Net.Rest.dll
-D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Discord.Net.Webhook.dll
-D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Discord.Net.WebSocket.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\System.Interactive.Async.dll
-D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\System.Linq.Async.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\net5.0\PocketRpgBotDsc.csprojAssemblyReference.cache
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\net5.0\PocketRpgBotDsc.GeneratedMSBuildEditorConfig.editorconfig
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\net5.0\PocketRpgBotDsc.AssemblyInfoInputs.cache
@@ -25,3 +18,9 @@ D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\n
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\net5.0\ref\PocketRpgBotDsc.dll
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\net5.0\PocketRpgBotDsc.pdb
 D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\obj\Debug\net5.0\PocketRpgBotDsc.genruntimeconfig.cache
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\DSharpPlus.dll
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\DSharpPlus.CommandsNext.dll
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\DSharpPlus.Interactivity.dll
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\ConcurrentCollections.dll
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Emzi0767.Common.dll
+D:\#Projekty\#praca_inzynierska\Apps\PocketRpgBotDsc\PocketRpgBotDsc\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
