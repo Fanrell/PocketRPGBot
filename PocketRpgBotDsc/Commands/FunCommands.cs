@@ -40,14 +40,33 @@ namespace PocketRpgBotDsc.Commands
             await ctx.Channel.SendMessageAsync("Hello :3")
                 .ConfigureAwait(false);
         }
-
-        [Command("dice")]
+        //znaleźć sposób na wprowadzenie "pustej komendy" która pozwoli na wywołanie losowania bez konieczności wpisywania "dice"
+        [Command("dice"), Aliases("d")]
         public async Task Hello(CommandContext ctx, string dices)
         {
+            var diceRes = dices+"\n"
+                        +"Resoults: \n";
             var diceVars = StaticUnwrapper.UwrapSeparator(dices, "d");
-            var diceValue = StaticRandom.Radnom(diceVars[0],diceVars[1]);
-            await ctx.Channel.SendMessageAsync(diceValue.ToString())
-                .ConfigureAwait(false);
+            var diceValueReturn = 0;
+            if(diceVars[1] > 1)
+            {
+                for(int i = 0; i < diceVars[0]; i++)
+                {
+                    var intDiceValue = StaticRandom.Radnom(diceVars[1]);
+                    diceRes += intDiceValue.ToString() + " ";
+                    diceValueReturn += intDiceValue;
+                }
+                diceRes += "\nSum: ";
+                await ctx.Channel.SendMessageAsync(
+                    (diceRes+"\n"+diceValueReturn.ToString())
+                ).ConfigureAwait(false);
+            }
+            else
+            {
+                await ctx.Channel.SendMessageAsync(
+                    ("Invalide argument")
+                ).ConfigureAwait(false);
+            }
         }
     }
 }

@@ -8,17 +8,13 @@ namespace PocketRpgBotDsc.Tools
 {
     class StaticRandom
     {
-        public static int Radnom(int amount, int max)
+        //zmienic sposób wywoływania komendy w taki sposób, aby nie losować liczby n razy, tylko wywołać samą komendę odpowiednią ilość razy, z zapamiętaniem wylosowanej wartości, która pozwoli na wywołanie ingerencji kodu opserwatora.
+        public static int Radnom(int max)
         {
-            int resoult = 0;
-
             Random radnom = new Random(
                 Guid.NewGuid().GetHashCode()
                 );
-            for(int i = 0; i< amount; i++)
-                resoult += radnom.Next(maxValue: max);
-
-            return resoult;
+            return radnom.Next(1, max + 1);
         }
     }
 }
