@@ -1,26 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/PocketRpgBotDsc.csproj": {}
+    "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\PocketRpgBotDsc.csproj": {}
   },
   "projects": {
-    "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/PocketRpgBotDsc.csproj": {
+    "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\PocketRpgBotDsc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/PocketRpgBotDsc.csproj",
+        "projectUniqueName": "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\PocketRpgBotDsc.csproj",
         "projectName": "PocketRpgBotDsc",
-        "projectPath": "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/PocketRpgBotDsc.csproj",
-        "packagesPath": "/home/fanrell/.nuget/packages/",
-        "outputPath": "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/obj/",
+        "projectPath": "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\PocketRpgBotDsc.csproj",
+        "packagesPath": "C:\\Users\\ciesl\\.nuget\\packages\\",
+        "outputPath": "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/home/fanrell/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ciesl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.emzi0767.com/api/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -70,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

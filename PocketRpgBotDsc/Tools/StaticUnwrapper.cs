@@ -8,29 +8,36 @@ namespace PocketRpgBotDsc.Tools
 {
     static class StaticUnwrapper
     {
-        public static string[] UnwrapSpace(string wraped)
-        {
-            var unwraped = wraped.Split(" ");
-            return unwraped;
-        }
-
         public static int[] UwrapSeparator(string wraped, string separatro)
         {
             var unwraped = wraped.Split(separatro);
-            int[] toReturn ;
-            try
+            int[] toReturn = new int[] { 0, 0 };
+            Console.WriteLine("1: "+unwraped[0]+" 2: "+unwraped[1]);
+            if (unwraped[0] != "")
             {
-                toReturn = new int[] {
+                try
+                {
+                    toReturn = new int[] {
                     Convert.ToInt32(unwraped[0]),
                     Convert.ToInt32(unwraped[1])
-                };
+                    };
+                }
+                catch
+                {
+                    return toReturn;
+                }
             }
-            catch
+            else
             {
-                return new int[] {0,0};
+                try
+                {
+                    toReturn = new int[] { 1, Convert.ToInt32(unwraped[1])};
+                }
+                catch
+                {
+                    return toReturn;
+                }
             }
-            if(toReturn[0] == null || toReturn[0] == 0)
-                toReturn[0] = 1;
             return toReturn;
         }
     }

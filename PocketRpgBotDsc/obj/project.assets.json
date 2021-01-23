@@ -11,11 +11,11 @@
           "lib/netstandard2.0/ConcurrentCollections.dll": {}
         }
       },
-      "DSharpPlus/4.0.0-rc1": {
+      "DSharpPlus/4.0.0-nightly-00774": {
         "type": "package",
         "dependencies": {
           "Emzi0767.Common": "2.2.2",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.8",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
           "Newtonsoft.Json": "12.0.3",
           "System.Memory": "4.5.4",
           "System.Net.Http": "4.3.4",
@@ -30,11 +30,11 @@
           "lib/netstandard2.0/DSharpPlus.dll": {}
         }
       },
-      "DSharpPlus.CommandsNext/4.0.0-rc1": {
+      "DSharpPlus.CommandsNext/4.0.0-nightly-00774": {
         "type": "package",
         "dependencies": {
-          "DSharpPlus": "4.0.0-rc1",
-          "Microsoft.Extensions.DependencyInjection": "3.1.7"
+          "DSharpPlus": "4.0.0-nightly-00774",
+          "Microsoft.Extensions.DependencyInjection": "5.0.1"
         },
         "compile": {
           "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {}
@@ -43,11 +43,11 @@
           "lib/netstandard2.0/DSharpPlus.CommandsNext.dll": {}
         }
       },
-      "DSharpPlus.Interactivity/4.0.0-rc1": {
+      "DSharpPlus.Interactivity/4.0.0-nightly-00774": {
         "type": "package",
         "dependencies": {
           "ConcurrentHashSet": "1.1.0",
-          "DSharpPlus": "4.0.0-rc1"
+          "DSharpPlus": "4.0.0-nightly-00774"
         },
         "compile": {
           "lib/netstandard2.0/DSharpPlus.Interactivity.dll": {}
@@ -92,7 +92,7 @@
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -1250,40 +1250,37 @@
         "lib/netstandard2.0/ConcurrentCollections.xml"
       ]
     },
-    "DSharpPlus/4.0.0-rc1": {
-      "sha512": "uuOdv1IjXbPXzTYXL0f/cDcXVTAXfLLAgU/Bxb2GgGGLKqikdV1oc9AlFxix4cNZlOcj96nEq4ndzECEyN6MLg==",
+    "DSharpPlus/4.0.0-nightly-00774": {
+      "sha512": "k6FeXcWJNDHPMt9OUlOi+koLygtH7rU5lcD0VRo3jLUqeGGO/S1vWOhfiHvpDsBiFVcPKNUeQZCEOZxIM+vcMg==",
       "type": "package",
-      "path": "dsharpplus/4.0.0-rc1",
+      "path": "dsharpplus/4.0.0-nightly-00774",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "dsharpplus.4.0.0-rc1.nupkg.sha512",
+        "dsharpplus.4.0.0-nightly-00774.nupkg.sha512",
         "dsharpplus.nuspec",
         "lib/netstandard2.0/DSharpPlus.dll",
         "lib/netstandard2.0/DSharpPlus.xml"
       ]
     },
-    "DSharpPlus.CommandsNext/4.0.0-rc1": {
-      "sha512": "aK3H+WgoA9Gwvkzl9mul7Va+jijA8ajOZ6s8mBLW9iCGAJjVl7DUxI256AFAS1YvGRjeR7Ar61fwq6z7daZp0w==",
+    "DSharpPlus.CommandsNext/4.0.0-nightly-00774": {
+      "sha512": "sw2HqOA/Ikf/rTFQU5wrAUol6boBGXucFoFbhZqpJsiTvsRzliwvmhRqFj/RgpL5xZZOUL/FKnJlQq4Qq1sNdQ==",
       "type": "package",
-      "path": "dsharpplus.commandsnext/4.0.0-rc1",
+      "path": "dsharpplus.commandsnext/4.0.0-nightly-00774",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "dsharpplus.commandsnext.4.0.0-rc1.nupkg.sha512",
+        "dsharpplus.commandsnext.4.0.0-nightly-00774.nupkg.sha512",
         "dsharpplus.commandsnext.nuspec",
         "lib/netstandard2.0/DSharpPlus.CommandsNext.dll",
         "lib/netstandard2.0/DSharpPlus.CommandsNext.xml"
       ]
     },
-    "DSharpPlus.Interactivity/4.0.0-rc1": {
-      "sha512": "jzWMdOjD3w7U2oiNlkgOwKXjZWFvnvS9wGkZRV6K5vIcOB5KzLQsPu1cAj9Pv5pwV7zcxocJvfbq/2psWcSi5g==",
+    "DSharpPlus.Interactivity/4.0.0-nightly-00774": {
+      "sha512": "BkxEMQ7ve1JQ/NdrVOAYFpJfMy+MU5XkGS2WbxX6eEyXEQxSe+8WqWQ+5Kv8HRB7M1MQ3izKqXu+fi4p6Cqnew==",
       "type": "package",
-      "path": "dsharpplus.interactivity/4.0.0-rc1",
+      "path": "dsharpplus.interactivity/4.0.0-nightly-00774",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
-        "dsharpplus.interactivity.4.0.0-rc1.nupkg.sha512",
+        "dsharpplus.interactivity.4.0.0-nightly-00774.nupkg.sha512",
         "dsharpplus.interactivity.nuspec",
         "lib/netstandard2.0/DSharpPlus.Interactivity.dll",
         "lib/netstandard2.0/DSharpPlus.Interactivity.xml"
@@ -1350,18 +1347,24 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.8": {
-      "sha512": "LxQPR/KE4P9nx304VcFipWPcW8ZOZOGHuiYlG0ncAQJItogDzR9nyYUNvziLObx2MfX2Z9iCTdAqEtoImaQOYg==",
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "sha512": "NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.1.8",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.1.8.nupkg.sha512",
-        "microsoft.extensions.logging.abstractions.nuspec"
+        "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.1": {
@@ -4250,25 +4253,33 @@
     ]
   },
   "packageFolders": {
-    "/home/fanrell/.nuget/packages/": {}
+    "C:\\Users\\ciesl\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/PocketRpgBotDsc.csproj",
+      "projectUniqueName": "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\PocketRpgBotDsc.csproj",
       "projectName": "PocketRpgBotDsc",
-      "projectPath": "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/PocketRpgBotDsc.csproj",
-      "packagesPath": "/home/fanrell/.nuget/packages/",
-      "outputPath": "/home/fanrell/Project/PocketRpgBot/PocketRpgBotDsc/obj/",
+      "projectPath": "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\PocketRpgBotDsc.csproj",
+      "packagesPath": "C:\\Users\\ciesl\\.nuget\\packages\\",
+      "outputPath": "D:\\#Projekty\\#praca_inzynierska\\Apps\\PocketRpgBotDsc\\PocketRpgBotDsc\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "/home/fanrell/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ciesl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.emzi0767.com/api/v3/index.json": {}
       },
       "frameworks": {
         "net5.0": {
@@ -4318,40 +4329,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "PocketRpgBotDsc depends on DSharpPlus (>= 4.0.0-nightly-00774) but DSharpPlus 4.0.0-nightly-00774 was not found. An approximate best match of DSharpPlus 4.0.0-rc1 was resolved.",
-      "libraryId": "DSharpPlus",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "PocketRpgBotDsc depends on DSharpPlus.CommandsNext (>= 4.0.0-nightly-00774) but DSharpPlus.CommandsNext 4.0.0-nightly-00774 was not found. An approximate best match of DSharpPlus.CommandsNext 4.0.0-rc1 was resolved.",
-      "libraryId": "DSharpPlus.CommandsNext",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1603",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "PocketRpgBotDsc depends on DSharpPlus.Interactivity (>= 4.0.0-nightly-00774) but DSharpPlus.Interactivity 4.0.0-nightly-00774 was not found. An approximate best match of DSharpPlus.Interactivity 4.0.0-rc1 was resolved.",
-      "libraryId": "DSharpPlus.Interactivity",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }
